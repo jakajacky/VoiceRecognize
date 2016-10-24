@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F22A996C1DBC812C000D1EB5 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A996B1DBC812C000D1EB5 /* IATConfig.m */; };
+		F22A99711DBCBB5D000D1EB5 /* MIC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F22A99701DBCBB5D000D1EB5 /* MIC@2x.png */; };
+		F22A99721DBCBB5D000D1EB5 /* MIC@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F22A99701DBCBB5D000D1EB5 /* MIC@2x.png */; };
+		F22A99741DBCC934000D1EB5 /* MIC.png in Resources */ = {isa = PBXBuildFile; fileRef = F22A99731DBCC934000D1EB5 /* MIC.png */; };
+		F22A99751DBCC934000D1EB5 /* MIC.png in Resources */ = {isa = PBXBuildFile; fileRef = F22A99731DBCC934000D1EB5 /* MIC.png */; };
+		F2BCC9B71DBA26C9002E41FB /* EchoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCC9B61DBA26C9002E41FB /* EchoViewController.swift */; };
 		F2F8CAF51DBA14A30061206C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F8CAF41DBA14A30061206C /* Assets.xcassets */; };
 		F2F8CAFC1DBA14A40061206C /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F2F8CAFB1DBA14A40061206C /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F2F8CB011DBA14A40061206C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB001DBA14A40061206C /* Messages.framework */; };
 		F2F8CB041DBA14A40061206C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F8CB031DBA14A40061206C /* MessagesViewController.swift */; };
 		F2F8CB071DBA14A40061206C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F8CB051DBA14A40061206C /* MainInterface.storyboard */; };
 		F2F8CB091DBA14A40061206C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F8CB081DBA14A40061206C /* Assets.xcassets */; };
+		F2F8CB181DBA1A850061206C /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB171DBA1A850061206C /* iflyMSC.framework */; };
+		F2F8CB1A1DBA1AB40061206C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB191DBA1AB40061206C /* libz.tbd */; };
+		F2F8CB1C1DBA1ABE0061206C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB1B1DBA1ABE0061206C /* CoreLocation.framework */; };
+		F2F8CB1E1DBA1ACD0061206C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB1D1DBA1ACD0061206C /* CoreTelephony.framework */; };
+		F2F8CB201DBA1AD50061206C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB1F1DBA1AD50061206C /* AVFoundation.framework */; };
+		F2F8CB221DBA1ADB0061206C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB211DBA1ADB0061206C /* SystemConfiguration.framework */; };
+		F2F8CB241DBA1AE30061206C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB231DBA1AE30061206C /* QuartzCore.framework */; };
+		F2F8CB261DBA1AEC0061206C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB251DBA1AEC0061206C /* UIKit.framework */; };
+		F2F8CB281DBA1AF60061206C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB271DBA1AF60061206C /* Foundation.framework */; };
+		F2F8CB2A1DBA1AFC0061206C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F8CB291DBA1AFC0061206C /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +56,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F22A996A1DBC812C000D1EB5 /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		F22A996B1DBC812C000D1EB5 /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		F22A99701DBCBB5D000D1EB5 /* MIC@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MIC@2x.png"; sourceTree = "<group>"; };
+		F22A99731DBCC934000D1EB5 /* MIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MIC.png; sourceTree = "<group>"; };
+		F2BCC9B61DBA26C9002E41FB /* EchoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EchoViewController.swift; sourceTree = "<group>"; };
 		F2F8CAF11DBA14A30061206C /* EchoMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F8CAF41DBA14A30061206C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2F8CAF61DBA14A30061206C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +70,17 @@
 		F2F8CB061DBA14A40061206C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		F2F8CB081DBA14A40061206C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2F8CB0A1DBA14A40061206C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F8CB171DBA1A850061206C /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		F2F8CB191DBA1AB40061206C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F2F8CB1B1DBA1ABE0061206C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F2F8CB1D1DBA1ACD0061206C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F2F8CB1F1DBA1AD50061206C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F2F8CB211DBA1ADB0061206C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F2F8CB231DBA1AE30061206C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F2F8CB251DBA1AEC0061206C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2F8CB271DBA1AF60061206C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2F8CB291DBA1AFC0061206C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2F8CB2D1DBA1B740061206C /* MessagesExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MessagesExtension-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F8CB2A1DBA1AFC0061206C /* CoreGraphics.framework in Frameworks */,
+				F2F8CB281DBA1AF60061206C /* Foundation.framework in Frameworks */,
+				F2F8CB261DBA1AEC0061206C /* UIKit.framework in Frameworks */,
+				F2F8CB241DBA1AE30061206C /* QuartzCore.framework in Frameworks */,
+				F2F8CB221DBA1ADB0061206C /* SystemConfiguration.framework in Frameworks */,
+				F2F8CB201DBA1AD50061206C /* AVFoundation.framework in Frameworks */,
+				F2F8CB1E1DBA1ACD0061206C /* CoreTelephony.framework in Frameworks */,
+				F2F8CB1C1DBA1ABE0061206C /* CoreLocation.framework in Frameworks */,
+				F2F8CB1A1DBA1AB40061206C /* libz.tbd in Frameworks */,
+				F2F8CB181DBA1A850061206C /* iflyMSC.framework in Frameworks */,
 				F2F8CB011DBA14A40061206C /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +136,16 @@
 		F2F8CAFF1DBA14A40061206C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2F8CB291DBA1AFC0061206C /* CoreGraphics.framework */,
+				F2F8CB271DBA1AF60061206C /* Foundation.framework */,
+				F2F8CB251DBA1AEC0061206C /* UIKit.framework */,
+				F2F8CB231DBA1AE30061206C /* QuartzCore.framework */,
+				F2F8CB211DBA1ADB0061206C /* SystemConfiguration.framework */,
+				F2F8CB1F1DBA1AD50061206C /* AVFoundation.framework */,
+				F2F8CB1D1DBA1ACD0061206C /* CoreTelephony.framework */,
+				F2F8CB1B1DBA1ABE0061206C /* CoreLocation.framework */,
+				F2F8CB191DBA1AB40061206C /* libz.tbd */,
+				F2F8CB171DBA1A850061206C /* iflyMSC.framework */,
 				F2F8CB001DBA14A40061206C /* Messages.framework */,
 			);
 			name = Frameworks;
@@ -103,9 +155,15 @@
 			isa = PBXGroup;
 			children = (
 				F2F8CB031DBA14A40061206C /* MessagesViewController.swift */,
+				F2BCC9B61DBA26C9002E41FB /* EchoViewController.swift */,
 				F2F8CB051DBA14A40061206C /* MainInterface.storyboard */,
+				F22A996A1DBC812C000D1EB5 /* IATConfig.h */,
+				F22A996B1DBC812C000D1EB5 /* IATConfig.m */,
 				F2F8CB081DBA14A40061206C /* Assets.xcassets */,
 				F2F8CB0A1DBA14A40061206C /* Info.plist */,
+				F2F8CB2D1DBA1B740061206C /* MessagesExtension-Bridging-Header.h */,
+				F22A99701DBCBB5D000D1EB5 /* MIC@2x.png */,
+				F22A99731DBCC934000D1EB5 /* MIC.png */,
 			);
 			path = MessagesExtension;
 			sourceTree = "<group>";
@@ -159,10 +217,13 @@
 				TargetAttributes = {
 					F2F8CAF01DBA14A30061206C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X342LX7QRW;
 						ProvisioningStyle = Automatic;
 					};
 					F2F8CAFA1DBA14A40061206C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X342LX7QRW;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -191,6 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22A99741DBCC934000D1EB5 /* MIC.png in Resources */,
+				F22A99711DBCBB5D000D1EB5 /* MIC@2x.png in Resources */,
 				F2F8CAF51DBA14A30061206C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +264,8 @@
 			files = (
 				F2F8CB091DBA14A40061206C /* Assets.xcassets in Resources */,
 				F2F8CB071DBA14A40061206C /* MainInterface.storyboard in Resources */,
+				F22A99721DBCBB5D000D1EB5 /* MIC@2x.png in Resources */,
+				F22A99751DBCC934000D1EB5 /* MIC.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22A996C1DBC812C000D1EB5 /* IATConfig.m in Sources */,
 				F2F8CB041DBA14A40061206C /* MessagesViewController.swift in Sources */,
+				F2BCC9B71DBA26C9002E41FB /* EchoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +399,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X342LX7QRW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.EchoMessage.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MessagesExtension/MessagesExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -345,11 +421,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X342LX7QRW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.EchoMessage.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MessagesExtension/MessagesExtension-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -359,6 +443,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = EchoMessage/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.EchoMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,6 +457,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = EchoMessage/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.EchoMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,6 +485,7 @@
 				F2F8CB0F1DBA14A40061206C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2F8CB111DBA14A40061206C /* Build configuration list for PBXNativeTarget "EchoMessage" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +494,7 @@
 				F2F8CB131DBA14A40061206C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

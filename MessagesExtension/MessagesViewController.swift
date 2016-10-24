@@ -9,8 +9,10 @@
 import UIKit
 import Messages
 
-class MessagesViewController: MSMessagesAppViewController {
-    
+class MessagesViewController: MSMessagesAppViewController{
+  
+  var message:NSString!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -68,5 +70,45 @@ class MessagesViewController: MSMessagesAppViewController {
     
         // Use this method to finalize any behaviors associated with the change in presentation style.
     }
+  
+  @IBAction func startVoice(_ sender: AnyObject) {
+    //显示SDK的版本号
+    print("version=%@", IFlySetting.getVersion())
+    
+    //打开输出在console的log开关
+    IFlySetting.showLogcat(false)
+    
+    //设置sdk的工作路径
+    let paths = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)
+    let cachePath =  paths[0]
+    IFlySetting.setLogFilePath(cachePath)
+    
+    let initString = NSString(format: "appid=%@", "5809e0e2") as String
+    IFlySpeechUtility.createUtility(initString);
+    
+    let vc = EchoViewController()
+    vc.message = {
+      str in
+      print("语音结果：\(str)")
+      
+      let conversation = self.activeConversation
+      let layout = MSMessageTemplateLayout()
+      
+      layout.caption = "Stepper Value"
+      
+      let message = MSMessage()
+      message.layout = layout
+      message.url = URL(string: "www.baidu.com")
+      
+      conversation?.insert(message, completionHandler: { (error) in
+        print(error)
+      })
+//      conversation?.insertText(str as String, completionHandler: nil)
+    }
+    self.present(vc, animated: true) {
+      
+    }
+  }
+  
 
 }
